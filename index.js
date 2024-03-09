@@ -1,6 +1,7 @@
 const express = require("express");
 const fs = require("fs").promises;
 const app = express();
+//todo
 app.use(express.json());
 let todos = [];
 const readTodoFile = async function () {
